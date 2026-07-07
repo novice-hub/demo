@@ -18,11 +18,14 @@ This workspace is for practicing Git and GitHub concepts step by step.
 ## 3. Work with Branches
 
 1. Create a branch:
-   - `git branch feature/notes`
-   - `git switch feature/notes`
+      git switch -c feature/notes (new version it does both creat & switch in one command)
+
+   #old aproach
+   - `git branch feature/notes` #it created a new branch 
+   - `git switch feature/notes` # it move to the new branch
 2. Edit `practice-file.txt` or create `feature-notes.txt`.
 3. Commit the changes:
-   - `git add .`
+   - `git add .` #this add the data (Stage everything:)
    - `git commit -m "Add notes on feature branch"`
 4. Switch back to main:
    - `git switch main`
